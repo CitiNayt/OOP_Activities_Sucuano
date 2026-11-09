@@ -1,9 +1,6 @@
-
-/*
- * Name: James Bryan G. Caro
- * Section: IT2B
- * Date: October 28, 2026
- */
+// Jessrell Sucuano
+// BSIT-2B
+// November 5, 2026
 
 public class Book {
     private String title;
