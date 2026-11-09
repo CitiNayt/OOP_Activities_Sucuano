@@ -46,7 +46,8 @@ public class Main {
 
         System.out.println("Title: " + book2.getTitle());
         System.out.println("Price: " + book2.getPrice());
-
+     }
+}
         /*
         * 1. Why is it better to change the price through
         *    setPrice() instead of making price public?
