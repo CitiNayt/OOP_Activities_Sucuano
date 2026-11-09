@@ -1,3 +1,7 @@
+// Jessrell Sucuano
+// BSIT-2B
+// November 5, 2026
+
 public class Main {
     public static void main(String[] args) {
 
@@ -49,18 +53,21 @@ public class Main {
          *
          * 1. Why should monthlySalary be private, and what
          *    does the setter protect against?
-         *    Answer: It protects the salary from direct access
-         *    and prevents zero or negative salary values.
+         *    Answer: Keeping monthlySalary private prevents
+         *            other classes from changing it directly.
+         *            The setter makes sure the salary is valid.
          *
          * 2. Is a Manager also an Employee? Explain using
          *    the word extends.
-         *    Answer: Yes, because Manager extends Employee
-         *    and inherits its attributes and methods.
+         *    Answer: Yes, a Manager is an Employee because
+         *            the Manager class extends the Employee
+         *            class and gets its existing features.
          *
          * 3. What is the advantage of calling super.displayInfo()
          *    inside Manager's displayInfo()?
-         *    Answer: It displays the employee information
-         *    first, then adds the manager's team size.
+         *    Answer: It allows the Manager class to show the
+         *            employee's details first before displaying
+         *            additional information about the manager.
          */
     }
 }
