@@ -1,3 +1,7 @@
+// Jessrell Sucuano
+// BSIT-2B
+// November 5, 2026
+
 public class CollegeStudent extends Student {
     private String scholarshipStatus;
 
