@@ -1,9 +1,6 @@
-
-/*
- * Name: James Bryan G. Caro
- * Section: IT2B
- * Date: October 28, 2026
- */
+// Jessrell Sucuano
+// BSIT-2B
+// November 5, 2026
 
 public class Main {
     public static void main(String[] args) {
@@ -51,25 +48,21 @@ public class Main {
         System.out.println("Price: " + book2.getPrice());
 
         /*
-         * REFLECTION QUESTIONS
-         *
-         * 1. Why is it better to change the price through
-         *    setPrice() instead of making price public?
-         *    Answer: It protects the price from invalid values
-         *    because the setter can check if the price is negative.
-         *
-         * 2. Which members does EBook inherit from Book,
-         *    and which does it add on its own?
-         *    Answer: EBook inherits the public methods of Book,
-         *    including its getters, setters, and displayInfo().
-         *    It adds its own private fileFormat attribute and
-         *    its getter and setter.
-         *
-         * 3. If the library later adds an AudioBook class,
-         *    how would inheritance make that easier?
-         *    Answer: AudioBook can extend Book and reuse its
-         *    existing attributes and methods, adding only
-         *    the features specific to audiobooks.
-         */
-    }
-}
+        * 1. Why is it better to change the price through
+        *    setPrice() instead of making price public?
+        *    Answer: Using setPrice() keeps the price controlled
+        *    and prevents users from entering negative values.
+        *
+        * 2. Which members does EBook inherit from Book,
+        *    and which does it add on its own?
+        *    Answer: EBook gets the attributes and methods
+        *    from Book, such as the title, author, price,
+        *    and displayInfo(). It also has its own
+        *    fileFormat attribute with a getter and setter.
+        *
+        * 3. If the library later adds an AudioBook class,
+        *    how would inheritance make that easier?
+        *    Answer: AudioBook can use Book as its parent class,
+        *    so it can reuse the existing code and only add
+        *    new features needed for audiobooks.
+        */
