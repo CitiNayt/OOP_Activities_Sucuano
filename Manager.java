@@ -1,3 +1,7 @@
+// Jessrell Sucuano
+// BSIT-2B
+// November 5, 2026
+
 public class Manager extends Employee {
     private int teamSize;
 
