@@ -47,8 +47,9 @@ public class Main {
         System.out.println(
             "Monthly Salary: " + emp2.getMonthlySalary()
         );
-
-        /*
+    }
+}
+         /*
          * REFLECTION QUESTIONS
          *
          * 1. Why should monthlySalary be private, and what
@@ -69,5 +70,3 @@ public class Main {
          *            employee's details first before displaying
          *            additional information about the manager.
          */
-    }
-}
